@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #20223a;
+}
+
+.menu {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: coral;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.titulo{
+    font-size: 18px;
+    margin: 0;
+    color: #f0ebeb;
+    background-color: #020125;
+}
+.contenido {
+    font-size: 15px;
+    margin: 0;
+    color: #1a1a1b;
+    background-color: #e2e494;
+}
+.datos-personales {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 150px;
+    border: 2px solid #333;
+    border-radius: 55%;
+}
+
+p {
+    margin: 5px 0;
+    color: #666;
+}
+
+button {
+    background-color: #031427;
+    color: #f59999;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+}
